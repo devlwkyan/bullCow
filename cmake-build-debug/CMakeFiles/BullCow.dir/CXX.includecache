@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/devlwkyan/Documents/Programming/C++/Gaming/BullCow/BullCow/BullCow.cpp
+pch.h
+/home/devlwkyan/Documents/Programming/C++/Gaming/BullCow/BullCow/pch.h
+iostream
+-
+string
+-
+
+/home/devlwkyan/Documents/Programming/C++/Gaming/BullCow/BullCow/pch.h
+

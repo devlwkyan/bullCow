@@ -1,0 +1,10 @@
+Have a large dictionary of hidden words;
+
+User selectable word length, and difficulty;
+
+Checking the user's guess is a dictionary isogram;
+
+Providing a time limit for the guesses;
+
+A hint system, spend a turn for a hint;
+

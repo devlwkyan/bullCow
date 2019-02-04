@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="BullCow"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/devlwkyan/Documents/Programming/C++/Gaming/BullCow/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/devlwkyan/Documents/Programming/C++/Gaming/BullCow/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/devlwkyan/Documents/Programming/C++/Gaming/BullCow/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/devlwkyan/Documents/Programming/C++/Gaming/BullCow/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/devlwkyan/Documents/Programming/C++/Gaming/BullCow/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/devlwkyan/Documents/Programming/C++/Gaming/BullCow/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/devlwkyan/Documents/Programming/C++/Gaming/BullCow/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/devlwkyan/Documents/Programming/C++/Gaming/BullCow/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/devlwkyan/Documents/Programming/C++/Gaming/BullCow/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/devlwkyan/Documents/Programming/C++/Gaming/BullCow/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="BullCow">
+				<Option output="/home/devlwkyan/Documents/Programming/C++/Gaming/BullCow/cmake-build-debug/BullCow" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/devlwkyan/Documents/Programming/C++/Gaming/BullCow/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/devlwkyan/Documents/Programming/C++/Gaming/BullCow/BullCow"/>
+					<Add directory="/home/devlwkyan/Documents/Programming/C++/Gaming/BullCow/BullCow/Debug"/>
+					<Add directory="/home/devlwkyan/Documents/Programming/C++/Gaming/BullCow/BullCow/x64"/>
+					<Add directory="/home/devlwkyan/Documents/Programming/C++/Gaming/BullCow/BullCow/x64/Debug"/>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/devlwkyan/Documents/Programming/C++/Gaming/BullCow/cmake-build-debug/Makefile&quot;  VERBOSE=1 BullCow"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/devlwkyan/Documents/Programming/C++/Gaming/BullCow/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/devlwkyan/Documents/Programming/C++/Gaming/BullCow/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/devlwkyan/Documents/Programming/C++/Gaming/BullCow/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="BullCow/fast">
+				<Option output="/home/devlwkyan/Documents/Programming/C++/Gaming/BullCow/cmake-build-debug/BullCow" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/devlwkyan/Documents/Programming/C++/Gaming/BullCow/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/devlwkyan/Documents/Programming/C++/Gaming/BullCow/BullCow"/>
+					<Add directory="/home/devlwkyan/Documents/Programming/C++/Gaming/BullCow/BullCow/Debug"/>
+					<Add directory="/home/devlwkyan/Documents/Programming/C++/Gaming/BullCow/BullCow/x64"/>
+					<Add directory="/home/devlwkyan/Documents/Programming/C++/Gaming/BullCow/BullCow/x64/Debug"/>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/devlwkyan/Documents/Programming/C++/Gaming/BullCow/cmake-build-debug/Makefile&quot;  VERBOSE=1 BullCow/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/devlwkyan/Documents/Programming/C++/Gaming/BullCow/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/devlwkyan/Documents/Programming/C++/Gaming/BullCow/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/devlwkyan/Documents/Programming/C++/Gaming/BullCow/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/devlwkyan/Documents/Programming/C++/Gaming/BullCow/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/devlwkyan/Documents/Programming/C++/Gaming/BullCow/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/devlwkyan/Documents/Programming/C++/Gaming/BullCow/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/devlwkyan/Documents/Programming/C++/Gaming/BullCow/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/devlwkyan/Documents/Programming/C++/Gaming/BullCow/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/devlwkyan/Documents/Programming/C++/Gaming/BullCow/BullCow/BullCow.cpp">
+			<Option target="BullCow"/>
+		</Unit>
+		<Unit filename="/home/devlwkyan/Documents/Programming/C++/Gaming/BullCow/BullCow/Debug/BullCow.pch">
+			<Option target="BullCow"/>
+		</Unit>
+		<Unit filename="/home/devlwkyan/Documents/Programming/C++/Gaming/BullCow/BullCow/pch.cpp">
+			<Option target="BullCow"/>
+		</Unit>
+		<Unit filename="/home/devlwkyan/Documents/Programming/C++/Gaming/BullCow/BullCow/pch.h">
+			<Option target="BullCow"/>
+		</Unit>
+		<Unit filename="/home/devlwkyan/Documents/Programming/C++/Gaming/BullCow/BullCow/x64/Debug/BullCow.pch">
+			<Option target="BullCow"/>
+		</Unit>
+		<Unit filename="/home/devlwkyan/Documents/Programming/C++/Gaming/BullCow/Debug/BullCow.exe">
+			<Option target="BullCow"/>
+		</Unit>
+		<Unit filename="/home/devlwkyan/Documents/Programming/C++/Gaming/BullCow/Debug/BullCow.ilk">
+			<Option target="BullCow"/>
+		</Unit>
+		<Unit filename="/home/devlwkyan/Documents/Programming/C++/Gaming/BullCow/Debug/BullCow.pdb">
+			<Option target="BullCow"/>
+		</Unit>
+		<Unit filename="/home/devlwkyan/Documents/Programming/C++/Gaming/BullCow/possible_ideas.txt">
+			<Option target="BullCow"/>
+		</Unit>
+		<Unit filename="/home/devlwkyan/Documents/Programming/C++/Gaming/BullCow/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
