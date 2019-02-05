@@ -150,6 +150,33 @@ BullCow/BullCow.cpp.s:
 	$(MAKE) -f CMakeFiles/BullCow.dir/build.make CMakeFiles/BullCow.dir/BullCow/BullCow.cpp.s
 .PHONY : BullCow/BullCow.cpp.s
 
+BullCow/FBullCowGame.o: BullCow/FBullCowGame.cpp.o
+
+.PHONY : BullCow/FBullCowGame.o
+
+# target to build an object file
+BullCow/FBullCowGame.cpp.o:
+	$(MAKE) -f CMakeFiles/BullCow.dir/build.make CMakeFiles/BullCow.dir/BullCow/FBullCowGame.cpp.o
+.PHONY : BullCow/FBullCowGame.cpp.o
+
+BullCow/FBullCowGame.i: BullCow/FBullCowGame.cpp.i
+
+.PHONY : BullCow/FBullCowGame.i
+
+# target to preprocess a source file
+BullCow/FBullCowGame.cpp.i:
+	$(MAKE) -f CMakeFiles/BullCow.dir/build.make CMakeFiles/BullCow.dir/BullCow/FBullCowGame.cpp.i
+.PHONY : BullCow/FBullCowGame.cpp.i
+
+BullCow/FBullCowGame.s: BullCow/FBullCowGame.cpp.s
+
+.PHONY : BullCow/FBullCowGame.s
+
+# target to generate assembly for a file
+BullCow/FBullCowGame.cpp.s:
+	$(MAKE) -f CMakeFiles/BullCow.dir/build.make CMakeFiles/BullCow.dir/BullCow/FBullCowGame.cpp.s
+.PHONY : BullCow/FBullCowGame.cpp.s
+
 BullCow/pch.o: BullCow/pch.cpp.o
 
 .PHONY : BullCow/pch.o
@@ -189,6 +216,9 @@ help:
 	@echo "... BullCow/BullCow.o"
 	@echo "... BullCow/BullCow.i"
 	@echo "... BullCow/BullCow.s"
+	@echo "... BullCow/FBullCowGame.o"
+	@echo "... BullCow/FBullCowGame.i"
+	@echo "... BullCow/FBullCowGame.s"
 	@echo "... BullCow/pch.o"
 	@echo "... BullCow/pch.i"
 	@echo "... BullCow/pch.s"

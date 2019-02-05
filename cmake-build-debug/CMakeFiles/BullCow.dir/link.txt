@@ -1,1 +1,1 @@
-/usr/bin/c++  -g   CMakeFiles/BullCow.dir/BullCow/BullCow.cpp.o CMakeFiles/BullCow.dir/BullCow/pch.cpp.o  -o BullCow 
+/usr/bin/c++  -g   CMakeFiles/BullCow.dir/BullCow/BullCow.cpp.o CMakeFiles/BullCow.dir/BullCow/pch.cpp.o CMakeFiles/BullCow.dir/BullCow/FBullCowGame.cpp.o  -o BullCow 

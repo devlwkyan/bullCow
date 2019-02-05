@@ -17,4 +17,4 @@ add_executable(BullCow
         Debug/BullCow.exe
         Debug/BullCow.ilk
         Debug/BullCow.pdb
-        possible_ideas.txt)
+        possible_ideas.txt BullCow/FBullCowGame.cpp BullCow/FBullCowGame.h)

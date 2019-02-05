@@ -98,6 +98,12 @@
 		<Unit filename="/home/devlwkyan/Documents/Programming/C++/Gaming/BullCow/BullCow/Debug/BullCow.pch">
 			<Option target="BullCow"/>
 		</Unit>
+		<Unit filename="/home/devlwkyan/Documents/Programming/C++/Gaming/BullCow/BullCow/FBullCowGame.cpp">
+			<Option target="BullCow"/>
+		</Unit>
+		<Unit filename="/home/devlwkyan/Documents/Programming/C++/Gaming/BullCow/BullCow/FBullCowGame.h">
+			<Option target="BullCow"/>
+		</Unit>
 		<Unit filename="/home/devlwkyan/Documents/Programming/C++/Gaming/BullCow/BullCow/pch.cpp">
 			<Option target="BullCow"/>
 		</Unit>
