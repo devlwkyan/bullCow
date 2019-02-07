@@ -11,8 +11,11 @@ bool askToPlayAgain();
 FBullCowGame BCGame;
 
 int main() {
+//    std::cout << BCGame.GetCurrentTry() << std::endl << std::endl;
     Introduce();
     Guessing();
+    // TODO summary of game
+
 }
 
 void Introduce() {
@@ -27,15 +30,19 @@ std::string output_Guess(std::string x) {
 }
 
 std::string Guessing() {
+    BCGame.Reset();
     int MaxTries =  BCGame.GetMaxTries();
     int CurrentTry = BCGame.GetCurrentTry();
     std::cout << "Max numbers of tries: " << MaxTries << std::endl;
     std::string Guess;
     // get a guess from the player
     bool playAgain;
+    //TODO change to while-loop after validating guessing
     for (int i = 1 ; i < MaxTries; ++i) {
         std::cout << "Try: " << CurrentTry << ". Enter your guess: ";
+        // TODO: check whether the guessing is valid
         std::getline(std::cin, Guess);
+        // TODO submit valid guess to the game -> output_Guess
         output_Guess(Guess);
         playAgain = askToPlayAgain();
         if (!playAgain)

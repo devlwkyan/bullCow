@@ -11,7 +11,7 @@
 
 class FBullCowGame {
 public:
-
+    FBullCowGame();
     int GetMaxTries() const;
     int GetCurrentTry() const;
     bool IsGameWon() const;
@@ -19,9 +19,13 @@ public:
     void Reset();
     bool CheckGuessValidity(std::string);
 
+    // > Provide method for counting bulls and cows and increasing turn n;
+
 private:
-    int CurrentTry = 1;
-    int MaxTry = 5;
+    // Check Constructor
+    int CurrentTry;
+    int MaxTry;
+    bool end;
 };
 
 

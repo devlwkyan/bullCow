@@ -8,3 +8,4 @@ Providing a time limit for the guesses;
 
 A hint system, spend a turn for a hint;
 
+Add game summary
